@@ -1,7 +1,7 @@
 //import java.util.*;
 
 public class JavaExpert{
-    public static void hollow_rectangle(int totRows, int totcols){
+    public static void hollow_rectangles(int totRows, int totcols){
         //Outer Loop
         for(int i=1; i<=totRows; i++){
             for(int j=1; j<=totcols; j++){
@@ -16,6 +16,6 @@ public class JavaExpert{
     }
 
     public static void main(String args[]){
-        hollow_rectangle(4,5);
+        hollow_rectangles(4,5);
 }
 }
